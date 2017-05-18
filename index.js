@@ -41,7 +41,7 @@ function hasImportDefaultSpecifier (specifiers) {
 
 function makeImport (t, localName, src) {
   return t.importDeclaration([
-    t.importDefaultSpecifier(t.identifier(localName))
+    t.importNamespaceSpecifier(t.identifier(localName))
   ], t.stringLiteral(src))
 }
 
