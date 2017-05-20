@@ -33,7 +33,7 @@ plugin is for you!
 *Of course in the vast majority of cases you should just use normal import
 statements. Don't go overboard using this plugin.*
 
-You can import the **default members** of any matching module. Let's say you
+You can import the **members** of any matching module. Let's say you
 have a directory layout like this:
 
 * `index.js`
